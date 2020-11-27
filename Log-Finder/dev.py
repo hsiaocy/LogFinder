@@ -20,6 +20,9 @@ def isValid(folder_path, ):
 
 
 def build_test_files(test_dir=r"path", file_num=100, ):
+    """
+    This function is going to build a bunch of files within random texts..., and add targets/key words to be probed.
+    """
     flg = 0
     txt = '125ake;ghowijetg;awlkej ;lwakej;wlaej;wlaejr;kaweht;awentggsgE'
 
@@ -37,6 +40,7 @@ def build_test_files(test_dir=r"path", file_num=100, ):
             char_num = np.random.randint(len(txt))
             tmp.write('{}\n'.format(txt[:char_num]))
             
+            # add targets/key words
             # add "hello world" if char_num > 80 , add "goodbye world" elif char_num > 300 
             if __ > 80 and flg == 0:
                 flg = 1
