@@ -141,15 +141,15 @@ if __name__ == '__main__':
 
     # for folder in folders:
     #     _verbose.append(("Folder Name: {} ".format(folder) + commas)[:100])
-    #     findLog('bowmtspacebeta1', 'Bowmtspacebeta2', 'bbwmfg02', 'Bowfepsws1', 'Bowtdcopy01', 'Bowpntelcv01', 'Bowautotest01', 'Bowe3fd06',
+    #     findLog('file1', 'file2', 'file3', 'file4', 'file5', 'file6', 'file7', 'file8',
     #             file_dir=file_dir, folder=folder, )
     #
     # processTable(file_dir=savePath)
 
     """
-    f_dir = r"\\bowscorbkprd1\Logs\AutoPatch"
+    f_dir = r"\\folder1\Logs\"
     folder = 'Begin Install-Validate Install'
-    findLog('bowmfgsqaaut02',
+    findLog('file',
             file_dir=f_dir, folder=folder)
     >>> ???
     """
